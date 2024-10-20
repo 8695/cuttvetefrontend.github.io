@@ -17,7 +17,7 @@ function App() {
       toast.error("Please sign up first then see the home page.");
       navigate("/"); 
     }
-  }, [Home]);
+  }, [token,navigate]);
 
   return (
     <>
